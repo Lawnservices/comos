@@ -1,0 +1,78 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.cavesa {
+  width: 100%;
+  height: 140;
+  background-color: #003349;
+  display: flex;
+}
+.cavesa{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.cavesa img{
+  margin-left: 30px;
+  margin: 10px;
+}
+.cavesa h1{
+  margin-left: 30px;
+  color: #fff;
+}
+.acento p{
+  float: left;
+  color: #fff;
+  margin-left: 800px;
+  display: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+.titulo {
+  color: #000;
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0px 0px 23px;
+  margin-left: 20px;
+}
+p {
+  font-size: 26px;
+  margin-left: 150px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #000;
+}
+table {
+  width: 80%;
+  height: auto;
+  border: 1px solid #333;
+  margin: auto;
+  background-color: #f6f6f6;
+  
+}
+
+tr,
+td {
+  font-size: 22px;
+  color: rgb(32, 34, 32);
+  border: 1px solid #003349;
+  padding: 6px 6px;
+}
+
+.pie {
+  width: 100%;
+  height: 120px;
+  background-color: #f6f6f6;
+}
+.pie h5 {
+  text-align: center;
+  font-size: 18px;
+  color: #000;
+  margin-top: 60px;
+}
+@media (min-width: 300px) and(max-width:800px) {
+  table {
+    width: 98%;
+    height: auto;
+  }
+}
